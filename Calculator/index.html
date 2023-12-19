@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>My first calculator in FSD</title>
+        <script type="text/javascript" src="calculator.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+    <div class="main">
+        <h1>CALCULATOR</h1>
+        <table>
+            <tr>
+                <td>enter first number :</td>
+                <td><input id="num1" placeholder="number 1"/></td>
+            </tr>
+            <tr>
+                <td>enter second number :</td>
+                <td><input id="num2" placeholder="number 2"/></td>
+            </tr>
+            <tr>
+                <td>result :</td>
+                <td><input id="result" placeholder="result" disabled/></td>
+            </tr>
+        </table><br>
+
+        <button onclick="return addition()">ADD</button><br><br>
+        <button onclick="return subtraction()">SUBTRACT</button><br><br>
+        <button onclick="return multiplication()">MULTIPLY</button><br><br>
+        <button onclick="return division()">DIVIDE</button>
+    </div>
+    </body>
+</html>

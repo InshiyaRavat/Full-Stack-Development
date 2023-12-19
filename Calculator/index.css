@@ -1,0 +1,23 @@
+.main{
+    text-align: center;
+}
+h1{
+    color: color-mix(in hsl shorter hue, red 50%, blue 50%);
+}
+table{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    width: 100px;
+    background-color: lightyellow;
+}
+button:hover{
+    color: color-mix(in hsl shorter hue, red 50%, blue 50%);
+    background-color: lightgoldenrodyellow;
+}
+body{
+    background-color: lightyellow;
+    margin-top: 150px;
+}
