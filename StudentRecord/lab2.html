@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <script src="lab2.js"></script>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+
+            h1 {
+                color: #333;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #f2f2f2;
+            }
+
+            input, button {
+                margin-bottom: 10px;
+            }
+
+            button {
+                padding: 8px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Student Details</h1>
+        <table id="tableid" border="1">
+            <tr>
+                <th>Student Name</th>
+                <th>Student Email</th>
+                <th>Student Contact</th>
+                <th>button</th>
+            </tr>
+        </table>
+        <button onclick="highlightNameFunc()">Highlight Name</button>
+        <button onclick="highlightEmailFunc()">Highlight Email</button>
+        <button onclick="highlightContactFunc()">Highlight Contact</button><br>
+        <br>
+            Student Name : <input type="text" id="sname"/>
+            <br>
+            Student email : <input type="email" id="semail"/>
+            <br>
+            Student contact : <input type="number" id="scontact"/>
+            <br>
+            <button onclick="showStudent()">Add Student</button>
+        
+    </body>
+</html>
